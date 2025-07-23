@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import background from './assets/background.jpg';
+import background from './assets/background.png';
 import tear from './assets/torn-edge.png';
 
 function App() {
