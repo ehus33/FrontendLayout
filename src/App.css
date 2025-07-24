@@ -70,15 +70,16 @@ html, body, #root {
 }
 
 .cta {
-  background: transparent;
-  border: 2px solid white;
+  background-color: #fff;        /* white background */
+  color: #000;                   /* black text */
+  border: 2px solid #000;        /* black border */
   padding: 12px 28px;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1rem;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .cta:hover {
-  background: rgba(255,255,255,0.2);
+  background-color: #eee;        /* slightly darker white on hover */
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import background from './assets/background.png';
 import tear from './assets/torn-edge.png';
+import logo from './assets/logo-emem.png';
 
 function App() {
   return (
@@ -18,8 +19,10 @@ function App() {
         style={{ maskImage: `url(${tear})`, WebkitMaskImage: `url(${tear})` }}
       />
       <div className="content">
-        <h1 className="title-large">EMEMORY</h1>
-        <h2 className="title-small">EMEMORY</h2>
+        <div
+          className="mask bottom"
+          style={{ maskImage: `url(${logo-emem})`, WebkitMaskImage: `url(${logo-emem})` }}
+        />
         <p className="description">
           Memory is the only thing that remains with you when you die. Accumulating
           memories is cultivating your treasure. Let’s record our memories
