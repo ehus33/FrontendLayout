@@ -19,10 +19,7 @@ function App() {
         style={{ maskImage: `url(${tear})`, WebkitMaskImage: `url(${tear})` }}
       />
       <div className="content">
-        <div
-          className="mask bottom"
-          style={{ maskImage: `url(${logo-emem})`, WebkitMaskImage: `url(${logo-emem})` }}
-        />
+        <img src={logo} alt="Ememory logo" className="logo-img" />
         <p className="description">
           Memory is the only thing that remains with you when you die. Accumulating
           memories is cultivating your treasure. Let’s record our memories
