@@ -75,16 +75,22 @@ html, body, #root {
 }
 
 .cta {
-  background-color: #fff;        /* white background */
-  color: #000;                   /* black text */
+  background-color: #000;        /* white background */
+  color: #fff;                   /* black text */
   border: 2px solid #000;        /* black border */
   padding: 12px 28px;
   font-family: Arial, sans-serif;
+  
   font-size: 1rem;
   cursor: pointer;
+  border-radius: 999px;
+  box-shadow: 4px 4px 0 0 #fff;
   transition: background-color 0.3s ease;
 }
 
 .cta:hover {
   background-color: #eee;        /* slightly darker white on hover */
+  color:#000;
+  border: 2px solid #eee;
+  box-shadow: 4px 4px 0 0 #000;
 }
